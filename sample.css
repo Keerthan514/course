@@ -1,0 +1,160 @@
+body{
+    margin: 0;
+}
+
+#top{
+    width: auto;
+    background-color: aqua;
+}
+header{
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+#left{
+    margin: 0;
+    display: inline-block;
+} 
+
+#right{
+    display: inline-block;
+}
+
+.menu-item{
+    margin: 0;
+    padding: 10px;
+    display: inline-block;
+}
+
+.profile{
+    margin: 0;
+    display: inline-block;
+    padding: 10px;
+}
+
+.contact{
+    margin: 0;
+    display: inline-block;
+    padding: 10px;
+}
+
+.search{
+    margin: 0;
+    padding : 10px;
+    display: inline-block;
+}
+
+main{
+    margin: 16px;
+    text-align: center;
+    padding: 2% 7%;
+}
+
+section{
+    background-color: bisque;
+    width: 70%;
+    display: inline-block;
+    margin-right: 20px;
+    box-shadow: 0 2px 4px #ccc;
+}
+
+.img1{
+    width: 100%;
+}
+
+.descp{
+    width: 100%;
+}
+
+.descp p{
+    padding: 16px;
+}
+
+aside{
+    display: inline-block;
+    vertical-align: top;
+    width: 25%;
+    padding: 16px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 5px #aaa;
+    border-radius: 5px;
+
+}
+
+.place-wrapper{
+    width: 100%;
+}
+
+.place-wrapper img{
+    width: 100%;
+    max-height: 200px;
+}
+.menu-item{
+    font-size: 24px;
+}
+.contact{
+    font-size:24px ;
+}
+.profile{
+    font-size: 24px;
+}
+
+.search{
+    font-size: 24px;
+}
+@media screen and (max-width:768px) {
+    main{
+        width: auto;
+        padding: 2%;
+        /* background-color: beige; */
+        
+    }
+    section{
+        display:block;
+        width: 100%;
+        margin-right: 0;
+        padding: 2%;
+        box-sizing: border-box;
+    }
+    .img1{
+        width: 100%;
+    }
+
+    aside{
+        display: block;
+        width: 100%;
+    }
+
+    .place-wrapper{
+        display: block;
+        width: 100%;
+    }
+
+    .place-wrapper img{
+        width: 100%;
+        max-height: 200px;
+    }
+
+    #left{
+        display: block;
+        text-align: center;
+    }
+    #right{
+        display: block;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:241px){
+
+    .menu-item{
+        display: block;
+    }
+    .profile{
+        display: block;
+    }
+    .contact{
+        display: block;
+    }
+}
